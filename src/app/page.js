@@ -9,8 +9,8 @@ import CompetitorList from "./components/competitors/CompetitorList";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-blue-400 to-purple-500 min-h-screen">
-      {/* <Navbar /> */}
+    <div className="  bg-gradient-to-r from-blue-400 to-purple-500 min-h-screen">
+      <Navbar />
       <div className="container mx-auto pt-24 flex flex-col items-center">
         <motion.h1
           className="text-5xl font-bold text-white mb-8"
@@ -21,8 +21,11 @@ export default function Home() {
           Welcome to the Quiz Competition
         </motion.h1>
         <ButtonList/>
-        <div className="container">
+        <div className="container mt-10">
+          
           <CompetitorList/>
+
+          
 
         </div>
 

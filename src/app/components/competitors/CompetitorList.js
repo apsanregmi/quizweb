@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import competitorsData from "../../data/competitor.json";
 
 const CompetitorList = () => {
-  const [selectedMember, setSelectedMember] = useState(null);
+  const [selectedMemberId, setSelectedMemberId] = useState(null);
 
   const handleMemberClick = (member) => {
-    setSelectedMember(member);
+    setSelectedMemberId(member.id); // Track the selected member's ID
   };
 
   const handleClose = () => {
-    setSelectedMember(null);
+    setSelectedMemberId(null);
   };
 
   const radius = 300; // Base radius for the circular layout
@@ -32,11 +32,11 @@ const CompetitorList = () => {
             return (
               <div
                 key={competitor.id}
-                className="absolute flex items-center justify-center cursor-pointer"
+                className={`absolute flex items-center rounded-3xl justify-center cursor-pointer transition-all duration-300 ${selectedMemberId === competitor.id ? 'bg-green-400' : 'bg-blue-500'}`} // Change color if selected
                 style={{ left: `${x + radius}px`, top: `${y + radius}px` }}
                 onClick={() => handleMemberClick(competitor)}
               >
-                <div className="bg-blue-500 text-white rounded-3xl w-36 h-24 flex items-center text-center justify-center">
+                <div className="text-white rounded-3xl w-36 h-24 flex items-center text-center justify-center px-2">
                   {competitor.name}
                 </div>
               </div>
@@ -44,25 +44,25 @@ const CompetitorList = () => {
           })}
 
           {/* Display selected member details at the center */}
-          {selectedMember && (
+          {selectedMemberId && (
             <div
-              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 border border-gray-300 rounded-lg shadow-lg bg-yellow-200"
-              style={{ width: '300px', height: '200px' }}
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-14 mt-10 border border-gray-300 rounded-full shadow-lg bg-yellow-200"
+              style={{ width: '400px', height: '300px' }} // Increased size
             >
-              <h2 className="text-xl font-bold">{selectedMember.name}</h2>
-              <p className="text-gray-600">Coordinator: {selectedMember.coordinator}</p>
+              <h2 className="text-xl font-bold">{competitors.find(member => member.id === selectedMemberId)?.name}</h2>
+              <p className="text-gray-600">Coordinator: {competitors.find(member => member.id === selectedMemberId)?.coordinator}</p>
               <h3 className="mt-2 font-semibold">Team Members:</h3>
               <ul className="list-disc pl-5">
-                {selectedMember.teamMembers.map((member, index) => (
+                {competitors.find(member => member.id === selectedMemberId)?.teamMembers.map((member, index) => (
                   <li key={index} className="text-gray-800">{member}</li>
                 ))}
               </ul>
-              {/* <button
+              <button
                 className="mt-4 px-4 py-2 bg-red-500 text-white rounded"
                 onClick={handleClose}
               >
                 Close
-              </button> */}
+              </button>
             </div>
           )}
         </div>

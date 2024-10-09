@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Link from 'next/link';
 import ButtonList from "./components/buttons/ButtonList";
 import CompetitorList from "./components/competitors/CompetitorList";
+import SponsorList from "./components/sponsors/SponsorList";
 
 export default function Home() {
   return (
@@ -21,13 +22,16 @@ export default function Home() {
           Welcome to the Quiz Competition
         </motion.h1>
         <ButtonList/>
-        <div className="container mt-10">
+        <div className="container mt-10 mb-72">
           
           <CompetitorList/>
+
 
           
 
         </div>
+        <SponsorList/>
+
 
         
       </div>

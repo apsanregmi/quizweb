@@ -2,7 +2,29 @@
     "competitors": [
       {
         "id": 1,
-        "name": "Greenwood High School",
+        "name": "New West Point H.S.S",
+        "coordinator": "Mr. John Smith",
+        "teamMembers": [
+          "Alice Johnson",
+          "Mark Thompson",
+          "Emily Davis",
+          "Robert Brown"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Mount Everest H.S.S",
+        "coordinator": "Mr. John Smith",
+        "teamMembers": [
+          "Alice Johnson",
+          "Mark Thompson",
+          "Emily Davis",
+          "Robert Brown"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Beni Boarding H.S.S",
         "coordinator": "Mr. John Smith",
         "teamMembers": [
           "Alice Johnson",

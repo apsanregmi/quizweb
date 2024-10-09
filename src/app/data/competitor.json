@@ -1,0 +1,115 @@
+{
+    "competitors": [
+      {
+        "id": 1,
+        "name": "Greenwood High School",
+        "coordinator": "Mr. John Smith",
+        "teamMembers": [
+          "Alice Johnson",
+          "Mark Thompson",
+          "Emily Davis",
+          "Robert Brown"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Riverside Academy",
+        "coordinator": "Ms. Clara Wilson",
+        "teamMembers": [
+          "Sophia Martinez",
+          "James White",
+          "Mia Walker",
+          "David Harris"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Hillcrest Public School",
+        "coordinator": "Mr. Michael Lewis",
+        "teamMembers": [
+          "Isabella Young",
+          "Ethan Hall",
+          "Olivia Allen",
+          "Lucas Wright"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Sunrise International School",
+        "coordinator": "Ms. Sarah Robinson",
+        "teamMembers": [
+          "Emma Green",
+          "Jacob King",
+          "Ava Scott",
+          "Benjamin Adams"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Oakridge High",
+        "coordinator": "Mr. Anthony Baker",
+        "teamMembers": [
+          "Chloe Moore",
+          "Daniel Perez",
+          "Grace Miller",
+          "Matthew Taylor"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Springfield Academy",
+        "coordinator": "Ms. Jennifer Hernandez",
+        "teamMembers": [
+          "Lily Thompson",
+          "Christopher Mitchell",
+          "Harper Collins",
+          "Noah Campbell"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Maple Leaf School",
+        "coordinator": "Mr. Richard Carter",
+        "teamMembers": [
+          "Amelia Turner",
+          "Alexander Anderson",
+          "Ella Reed",
+          "Logan Morris"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Silver Oak Public School",
+        "coordinator": "Ms. Nancy Phillips",
+        "teamMembers": [
+          "Samantha Brooks",
+          "William Murphy",
+          "Zoe Bell",
+          "Liam Foster"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Blue Sky High School",
+        "coordinator": "Mr. Kevin Ward",
+        "teamMembers": [
+          "Victoria Howard",
+          "Ryan Cox",
+          "Charlotte Richardson",
+          "Joshua Hayes"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Evergreen Valley School",
+        "coordinator": "Ms. Karen Lee",
+        "teamMembers": [
+          "Natalie Hughes",
+          "Andrew Price",
+          "Aubrey Torres",
+          "Dylan Powell"
+        ]
+      }
+    ]
+  }
+  

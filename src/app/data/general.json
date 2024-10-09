@@ -1,0 +1,19 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the capital of France?",
+        "answer": "Paris",
+        "marks": 10,
+        "passable": true
+      },
+      {
+        "id": 2,
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "answer": "Harper Lee",
+        "marks": 15,
+        "passable": true
+      }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Identify this famous monument.",
+        "imageUrl": "https://example.com/eiffel_tower.jpg",
+        "answer": "Eiffel Tower",
+        "marks": 15,
+        "passable": false
+      },
+      {
+        "id": 2,
+        "question": "Identify this painting.",
+        "imageUrl": "https://example.com/mona_lisa.jpg",
+        "answer": "Mona Lisa",
+        "marks": 20,
+        "passable": true
+      }
+    ]
+  }
+  

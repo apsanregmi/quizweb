@@ -1,0 +1,17 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Explain the process of photosynthesis.",
+        "marks": 25,
+        "passable": true
+      },
+      {
+        "id": 2,
+        "question": "Discuss the impact of World War II on the global economy.",
+        "marks": 30,
+        "passable": false
+      }
+    ]
+  }
+  

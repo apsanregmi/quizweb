@@ -1,0 +1,21 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Venus"],
+        "answer": "Mars",
+        "marks": 5,
+        "passable": true
+      },
+      {
+        "id": 2,
+        "question": "What is the largest mammal?",
+        "options": ["Elephant", "Blue Whale", "Giraffe", "Shark"],
+        "answer": "Blue Whale",
+        "marks": 10,
+        "passable": false
+      }
+    ]
+  }
+  

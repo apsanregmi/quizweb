@@ -1,0 +1,19 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Who invented the telephone?",
+        "answer": "Alexander Graham Bell",
+        "marks": 20,
+        "passable": false
+      },
+      {
+        "id": 2,
+        "question": "How many continents are there on Earth?",
+        "answer": "Seven",
+        "marks": 10,
+        "passable": false
+      }
+    ]
+  }
+  

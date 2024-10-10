@@ -11,7 +11,7 @@
         "id": 2,
         "question": "Who wrote 'To Kill a Mockingbird'?",
         "answer": "Harper Lee",
-        "marks": 15,
+        "marks": 10,
         "passable": true
       }
     ]

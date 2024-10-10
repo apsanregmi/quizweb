@@ -7,8 +7,10 @@ import Link from 'next/link';
 import ButtonList from "./components/buttons/ButtonList";
 import CompetitorList from "./components/competitors/CompetitorList";
 import SponsorList from "./components/sponsors/SponsorList";
+import QuestionGrid from "./components/QuestionGrid";
 
 export default function Home() {
+  
   return (
     <div className="  bg-gradient-to-r from-blue-400 to-purple-500 min-h-screen">
       <Navbar />

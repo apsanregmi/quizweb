@@ -8,8 +8,12 @@ import ButtonList from "./components/buttons/ButtonList";
 import CompetitorList from "./components/competitors/CompetitorList";
 import SponsorList from "./components/sponsors/SponsorList";
 import QuestionGrid from "./components/QuestionGrid";
+import Timer from "./components/timer/Timer";
 
 export default function Home() {
+  const handleComplete = () => {
+    alert("Time's up!");
+  };
   
   return (
     <div className="  bg-gradient-to-r from-blue-400 to-purple-500 min-h-screen">
@@ -27,12 +31,19 @@ export default function Home() {
         <div className="container mt-10 mb-72">
           
           <CompetitorList/>
+          <div className="p-6">
+      <h1 className="text-4xl font-semibold mb-6 text-center mt-48">Quiz Competition</h1>
+      <Timer duration={30} onComplete={handleComplete} />
+    </div>
 
 
           
 
         </div>
+        <div className="-mt-48">
         <SponsorList/>
+
+        </div>
 
 
         

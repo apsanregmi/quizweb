@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-blue-600 p-4 text-white sticky top-0">
+    <nav className="bg-blue-600 p-4 text-white sticky top-0 z-50">
       <div className="container mx-auto flex flex-wrap justify-between items-center">
         {/* Navbar brand or title */}
         <div className="text-xl font-bold">
